@@ -3,35 +3,75 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+    <!--Responsive meta tag-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Bootstrap stylesheet-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
-        Kimia Darden
-    
-        <ul>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">portfolio</a></li>
-                <li><a href="#">About</a></li>
-        </ul>
-    </header>
 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand font-weight-bolder" style="background-color: rgb(51, 194, 238);">Kimia Darden</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
 
-
-
-
-            <h1>Contact</h1>
-        
+            <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
+              <li class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html"> About </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">contact</a>
+                </li>
+</li>
+              </ul>
 
             
-    <footer>
-        <p><br> copyright</p>
-    </footer>
+            </div>
+          </nav>
+    </header>
 
+    <div class="container-sm" class="container-md" class="container-lg">
+        <div class="row">
+            <div class="row" id="main">
+            <div class="col-sm-8" class="col-md-8" class="col-lg-8" >
+                
+                <h1>Contact</h1>
+                <hr>
+                
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint temporibus, ipsum ea cumque debitis, eum
+                    fugit tempore dignissimos, facere cum nesciunt praesentium molestias iste voluptate quod itaque esse
+                    maiores id.</p>
+                    
+                </div>
+            </div>
+
+        </div>
+
+        <!-- <div class="row align-items-end"> -->
+
+            <!-- </div> -->
+            
+            
+            
+            
+        </div>
+                <footer>
+                    <p><br> copyright</p>
+                </footer>
 </body>
-
 
 </html>
