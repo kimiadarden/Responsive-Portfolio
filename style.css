@@ -1,34 +1,42 @@
-
-
-
-
-
-#main{
-color: blue;
-padding:40px;
-
-
+#main {
+  color: blue;
+  padding: 40px;
 }
 
-footer{
-    height: 70px;
-      background-color:#ebebeb;
-    margin-bottom: 0px;
-    text-align: center;
-}
-
-/* [class*="col-"] {
+footer {
+  height: 25px;
+  background-color: #ebebeb;
+  margin-bottom: 0px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   width: 100%;
-} */
+  padding-bottom: 10px;
+}
+
+#mainPagePic{
+
+  padding:20px;
+}
 
 @media only screen and (max-width: 640px) {
-  
-#navrightside{
-  width: 100%;
-  padding-right: 100px;}
-
-  #navleftside{
+  #navrightside {
     width: 100%;
-padding-left: 140px;}
+    padding-right: 100px;
+  }
+  #navleftside {
+    width: 100%;
+    padding-left: 140px; 
+    text-align: justify;
+
+  }
 }
+
+@media only screen and (min-width: 992px) {
+  #navrightside {
+    text-align: justify;  }
+}
+
 
