@@ -1,11 +1,14 @@
 #main {
-  color: blue;
   padding: 40px;
+}
+
+.wrapper {
+    background-color: rgb(160, 156, 156);
 }
 
 footer {
   height: 25px;
-  background-color: #ebebeb;
+  background-color: #575353;
   margin-bottom: 0px;
   text-align: center;
   position: fixed;
